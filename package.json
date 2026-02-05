@@ -1,0 +1,54 @@
+{
+  "name": "@artik0din/mcp-gcloud-dns",
+  "version": "1.0.0",
+  "description": "Google Cloud DNS MCP server for managing DNS zones and records via API",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-gcloud-dns": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "google-cloud",
+    "gcp",
+    "dns",
+    "cloud-dns",
+    "domains",
+    "ai",
+    "llm",
+    "claude"
+  ],
+  "author": "Kevin Valfin <kevin@globodai.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artik0din/mcp-gcloud-dns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artik0din/mcp-gcloud-dns/issues"
+  },
+  "homepage": "https://github.com/artik0din/mcp-gcloud-dns#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ]
+}
