@@ -1,5 +1,5 @@
 {
-  "name": "@artik0din/mcp-gcloud-dns",
+  "name": "globodai-mcp-gcloud-dns",
   "version": "1.0.0",
   "description": "Google Cloud DNS MCP server for managing DNS zones and records via API",
   "main": "dist/index.js",
@@ -29,12 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artik0din/mcp-gcloud-dns.git"
+    "url": "https://github.com/globodai-group/mcp-gcloud-dns.git"
   },
   "bugs": {
-    "url": "https://github.com/artik0din/mcp-gcloud-dns/issues"
+    "url": "https://github.com/globodai-group/mcp-gcloud-dns/issues"
   },
-  "homepage": "https://github.com/artik0din/mcp-gcloud-dns#readme",
+  "homepage": "https://github.com/globodai-group/mcp-gcloud-dns#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.2"
   },
